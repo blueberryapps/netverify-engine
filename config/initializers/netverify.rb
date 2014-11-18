@@ -1,0 +1,1 @@
+Netverify.configure_from_rails

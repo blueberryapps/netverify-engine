@@ -1,0 +1,7 @@
+inherit_from: ../../../.rubocop.yml
+
+LineLength:
+  Enabled: false
+
+SpaceInsideBlockBraces:
+  Enabled: false

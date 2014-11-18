@@ -1,0 +1,14 @@
+development: &development
+  api_token: "dummy"
+  api_secret: "dummy"
+  company_name: "4finance"
+  app_name: "4finance"
+  app_version: "1.0.0"
+  host: 'http://dummy.dev'
+  callback_urls:
+    es:
+      id_card: 'http://dummy.dev'
+      document: 'http://dummy.dev'
+
+test:
+  <<: *development
